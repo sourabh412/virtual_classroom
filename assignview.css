@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Raleway:wght@100&display=swap');
+.assignview{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    left: 10%;
+    height: 80vh;
+    width: 50vw;
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.assignview h1{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 1px;
+}
+.assignview section{
+    width: 90%;
+    line-height: 1px;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+}
+.assignview h5{
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.assignview h5:nth-of-type(1){
+    background: rgba(235, 132, 103, 0.4);
+}
+
+.submitassign{
+    position: relative;
+    float: right;
+    top: 0%;
+    box-sizing: border-box;
+    width: calc(100vw - 50vw - 55px - 15vw);
+    margin: 10px;
+    margin-left: 0px;
+    height: auto;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.submitassign #file-Name{
+    text-align: center;
+}
+.submitassign h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.submitassign h6{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.submitassign p{
+    text-align: center;
+}
+.submitassign form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.submitassign form label{
+    margin: 10px 0px;
+    padding: 10px 0px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    width: 80%;
+    transition: 0.5s;
+    text-align: center;
+}
+.submitassign form label:hover{
+    background: #F6F6F6;
+    letter-spacing: 2px;
+}
+.submitassign button{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    background: #c77661;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    border: 2px solid #c77661;
+    border-radius: 0.5rem;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submitassign button:hover{
+    background: #88a355;
+    border: 2px solid #88a355;
+    letter-spacing: 2px;
+}
+
+.attachment{
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    width: calc(100vw - 50vw - 55px - 15vw);
+    margin: 10px;
+    padding: 10px 10px 10px 20px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.attachment h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+@media(max-width:1024px){
+    .assignview{
+        position: relative;
+        width: 96%;
+        margin-left: 20px;
+        left: 0%;
+    }
+    .submitassign{
+        position: relative;
+        width: 96%;
+    }
+    .attachment{
+        position: relative;
+        width: 96%;
+    }
+}
+
+@media(max-width:420px){
+    .assignview{
+        position: relative;
+        width: 96%;
+        margin-left: 20px;
+        left: 0%;
+    }
+    .submitassign{
+        position: relative;
+        width: 96%;
+    }
+    .attachment{
+        position: relative;
+        width: 96%;
+    }
+}
+
+embed{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.attachment a{
+    margin: 10px 0px;
+    padding: 0px 10px;
+    background: #fff;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.5rem;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.attachment a:hover{
+    background: #F6F6F6;
+    border: none;
+    letter-spacing: 2px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
